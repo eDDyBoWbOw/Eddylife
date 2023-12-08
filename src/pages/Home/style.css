@@ -1,0 +1,93 @@
+
+
+:root {
+    --primary-color: #fff8e1;
+    --secondary-color: #8b0000;
+  }
+  
+  .home-container {
+    background-color: var(--primary-color);
+    color: #333; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden; 
+    transition: background-color 0.5s ease;
+  }
+  
+  .home-container:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .hero {
+    background-color: var(--secondary-color);
+    padding: 50px;
+    border-radius: 15px; 
+  }
+  
+  .hero-title {
+    font-size: 3em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5em;
+    color: var(--primary-color);
+  }
+  
+  .home-content {
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 15px; 
+    margin-top: -30px; 
+    background-color: var(--primary-color);
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .bio,
+  .fun-facts {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .hover-effect {
+    transition: color 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    color: #8b0000;
+  }
+  

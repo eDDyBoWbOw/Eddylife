@@ -1,0 +1,36 @@
+.nav {
+    background-color: var(--secondary-color); 
+    border-radius: 15px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+  }
+  
+  .nav-link {
+    color: black !important; 
+    text-decoration: none; 
+    padding: 10px 20px;
+    transition: color 0.3s ease; 
+  }
+  
+  .nav-link:hover {
+    color: #333; 
+  }
+  
+  .active {
+    background-color: #333; 
+    border-radius: 15px; 
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333; 
+    margin-top: 60px; 
+  }
+  
